@@ -1,11 +1,17 @@
 {
   "type": "module",
   "name": "unexpected-dependable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Unexpected plugin for @dependable/state",
   "main": "./lib/unexpected-dependable.js",
   "author": "Sune Sloth Simonsen <sune@we-knowhow.dk>",
-  "keywords": ["assertion", "test", "assert", "@dependable", "unexpected"],
+  "keywords": [
+    "assertion",
+    "test",
+    "assert",
+    "@dependable",
+    "unexpected"
+  ],
   "license": "MIT",
   "bugs": "https://github.com/sunesimonsen/unexpected-dependable/issues",
   "repository": {
