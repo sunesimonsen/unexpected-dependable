@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "unexpected-dependable",
+  "version": "1.0.0",
+  "description": "Unexpected plugin for @dependable/state",
+  "main": "./lib/unexpected-dependable.js",
+  "author": "Sune Sloth Simonsen <sune@we-knowhow.dk>",
+  "keywords": ["assertion", "test", "assert", "@dependable", "unexpected"],
+  "license": "MIT",
+  "bugs": "https://github.com/sunesimonsen/unexpected-dependable/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunesimonsen/unexpected-dependable"
+  },
+  "peerDependencies": {
+    "unexpected": "5 || 6 || 7 || 8 || 9 || 10 || 11 || 12 || 13"
+  },
+  "devDependencies": {
+    "@dependable/state": "^0.6.2",
+    "mocha": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
